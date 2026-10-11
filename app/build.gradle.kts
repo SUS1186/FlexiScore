@@ -45,6 +45,8 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    testImplementation(libs.testng)
+    testImplementation(libs.testng)
 
     // CameraX Pipeline
     val cameraxVersion = "1.3.1"
