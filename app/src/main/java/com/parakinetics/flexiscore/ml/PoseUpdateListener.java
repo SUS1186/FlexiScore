@@ -1,9 +1,10 @@
 package com.parakinetics.flexiscore.ml;
 
-import com.google.mediapipe.tasks.components.containers.NormalizedLandmark;
-import java.util.List;
-
+/** Receives results from {@link Poselandmarkerhelper}. Called on a BACKGROUND thread. */
 public interface PoseUpdateListener {
-    void onPoseLandmarks(List<NormalizedLandmark> landmarks, int imageWidth, int imageHeight);
+
+    /** Called for every analysed frame - also with hasPose == false when nobody is visible. */
+    void onPoseResult(Poseframe frame);
+
     void onError(String errorMessage);
 }

@@ -1,9 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.FlexiScore" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <!-- Always-dark clinical theme. Delete res/values-night/themes.xml (not needed any more). -->
+    <style name="Theme.FlexiScore" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/fs_cyan</item>
+        <item name="colorOnPrimary">@color/fs_bg</item>
+        <item name="colorSecondary">@color/fs_purple</item>
+        <item name="colorSurface">@color/fs_surface</item>
+        <item name="android:windowBackground">@color/fs_bg</item>
+        <item name="android:statusBarColor">@color/fs_bg</item>
+        <item name="android:navigationBarColor">@color/fs_bg</item>
     </style>
-
-    <style name="Theme.FlexiScore" parent="Base.Theme.FlexiScore" />
 </resources>

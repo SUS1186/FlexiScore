@@ -2,4 +2,18 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- FlexiScore palette -->
+    <color name="fs_bg">#FF0A0E17</color>
+    <color name="fs_bg_top">#FF0F1B2D</color>
+    <color name="fs_surface">#FF161B22</color>
+    <color name="fs_surface_overlay">#CC161B22</color>
+    <color name="fs_stroke">#FF30363D</color>
+    <color name="fs_cyan">#FF00E5FF</color>
+    <color name="fs_green">#FF00E676</color>
+    <color name="fs_amber">#FFFFAB00</color>
+    <color name="fs_red">#FFFF1744</color>
+    <color name="fs_purple">#FFE040FB</color>
+    <color name="fs_text">#FFE6EDF3</color>
+    <color name="fs_text_dim">#FF8B949E</color>
 </resources>

@@ -52,6 +52,7 @@ dependencies {
     implementation("androidx.camera:camera-camera2:$cameraxVersion")
     implementation("androidx.camera:camera-lifecycle:$cameraxVersion")
     implementation("androidx.camera:camera-view:$cameraxVersion")
+    implementation("androidx.camera:camera-video:$cameraxVersion")   // NEW: video recording
 
     // MediaPipe Tasks Vision (BlazePose)
     implementation("com.google.mediapipe:tasks-vision:0.10.14")
